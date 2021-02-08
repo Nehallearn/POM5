@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.yus.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="POMDemo2Shadow(failed)">
+    <classes>
+      <class name="com.yus.tests.LandingPageTest">
+        <methods>
+          <include name="checkLandingPageLogo"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yus.tests.LandingPageTest -->
+    </classes>
+  </test> <!-- POMDemo2Shadow(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

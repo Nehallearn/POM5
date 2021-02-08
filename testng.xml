@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.yus.listeners.TestListeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="POMDemo2Shadow">
+        <classes>
+            <class name="com.yus.tests.LandingPageTest">  </class>
+            <class name="com.yus.tests.LoginPageTest">  </class>
+            <class name="com.yus.tests.RegisterTest">  </class>
+
+
+        </classes>
+    </test>
+</suite>
